@@ -23,6 +23,8 @@ func main() {
 		protected.GET("/users", handlers.GetAll)
 	}
 
+	router.GET("/basic", handlers.Basic)
+
 	fmt.Println("Server is running on port 7777")
 	router.Run(":7777")
 }
