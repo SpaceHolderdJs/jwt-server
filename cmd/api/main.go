@@ -26,5 +26,5 @@ func main() {
 	router.GET("/basic", handlers.Basic)
 
 	fmt.Println("Server is running on port 7777")
-	router.Run("0.0.0.0:80")
+	router.Run("0.0.0.0:8080")
 }
